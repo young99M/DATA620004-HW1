@@ -18,4 +18,4 @@ MNIST数据集
 （3 、4 和 5 通过调用finalmodel(lr, regu,hsize)函数实现）
 
 ## 测试步骤
-对想要测试的数据集testdata和对应的标签集testlabel调用predictbymodel(testdata, testlabel)即可.
+对想要测试的数据集testdata和对应的标签集testlabel调用predictbymodel(testdata, testlabel)即可. (该函数需要调用训练中存储的bestpara.pkl数据)
